@@ -1,5 +1,6 @@
 package test;
 
+import code.ReverseWordInString;
 import junit.framework.TestCase;
 
 public class ReverseWordInStringTest extends TestCase {
