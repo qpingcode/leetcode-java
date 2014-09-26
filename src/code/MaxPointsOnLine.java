@@ -63,7 +63,6 @@ public class MaxPointsOnLine {
 			return p3.x == p1.x;
 		}else{
 			int left = p3.y - p1.y;
-			
 			int right_1 = (p2.y - p1.y)*(p3.x - p1.x);
 			int right_2 = p2.x - p1.x;
 			
