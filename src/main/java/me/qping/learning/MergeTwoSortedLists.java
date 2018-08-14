@@ -1,4 +1,4 @@
-package code;
+package me.qping.learning;
 
 import util.ListNode;
 
@@ -17,20 +17,20 @@ import util.ListNode;
 
 
 public class MergeTwoSortedLists {
-	
+
 	public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
 		/*
-		 * ³õÊ¼×´Ì¬£º
-		 *  l1,l2¶¼ÊÇ·ÇµÝ¼õ(µÝÔö)µÄÁ´±í
-		 * 	p1,p2,p3·Ö±ðÖ¸Ïòl1,l2,l3µÄµÚÒ»¸ö½Úµã
-		 * ¿ªÊ¼¹é²¢£º
-		 * 	µ±p1.val < p2.valÊ±,Ê¹p3.next = p1,p3 = p1,p1 = p1.next
-		 * 	·ñÔò p3.next = p2, p3 = p2, p2 = p2.next
-		 *  µ±p1»òp2Îª¿ÕÊ±£¬½«Ê£ÓàµÄÁ´±í¸³¸øp3.next
-		 * ½á¹û£º
-		 * l1,l2ºÏ²¢Îªl3
-		 * l3ÊÇ·ÇµÝ¼õ(µÝÔö)µÄÁ´±í
-		 * 
+		 * åˆå§‹çŠ¶æ€ï¼š
+		 *  l1,l2éƒ½æ˜¯éžé€’å‡(é€’å¢ž)çš„é“¾è¡¨
+		 * 	p1,p2,p3åˆ†åˆ«æŒ‡å‘l1,l2,l3çš„ç¬¬ä¸€ä¸ªèŠ‚ç‚¹
+		 * å¼€å§‹å½’å¹¶ï¼š
+		 * 	å½“p1.val < p2.valæ—¶,ä½¿p3.next = p1,p3 = p1,p1 = p1.next
+		 * 	å¦åˆ™ p3.next = p2, p3 = p2, p2 = p2.next
+		 *  å½“p1æˆ–p2ä¸ºç©ºæ—¶ï¼Œå°†å‰©ä½™çš„é“¾è¡¨èµ‹ç»™p3.next
+		 * ç»“æžœï¼š
+		 * l1,l2åˆå¹¶ä¸ºl3
+		 * l3æ˜¯éžé€’å‡(é€’å¢ž)çš„é“¾è¡¨
+		 *
 		 */
 		ListNode p1 = l1;
 		ListNode p2 = l2;
@@ -50,6 +50,6 @@ public class MergeTwoSortedLists {
 		p3.next = (p1 != null ? p1 : p2);
 		return l3.next;
 	}
-	
+
 }
 

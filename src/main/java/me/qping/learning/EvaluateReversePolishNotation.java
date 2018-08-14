@@ -1,4 +1,4 @@
-package code;
+package me.qping.learning;
 
 import java.util.Stack;
 

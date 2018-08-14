@@ -1,4 +1,4 @@
-package util;
+package me.qping.learning.util;
 
 public class Point {
 	public int x;
