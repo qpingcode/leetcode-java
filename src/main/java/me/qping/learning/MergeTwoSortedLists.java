@@ -1,6 +1,7 @@
 package me.qping.learning;
 
-import util.ListNode;
+
+import me.qping.learning.util.ListNode;
 
 /**
  * Definition for singly-linked list.

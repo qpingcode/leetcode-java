@@ -1,11 +1,12 @@
 package me.qping.learning;
 
+import me.qping.learning.util.Point;
+
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import util.Point;
 
 /**
  * Given n points on a 2D plane, find the maximum number of points that lie on the same straight line.
