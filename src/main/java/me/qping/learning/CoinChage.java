@@ -42,9 +42,9 @@ public class CoinChage {
          *
          * 思考：
          * 1、类似于数学问题
-         *          给定函数： a1 * m1 + a2 * m2 + ...... + an * mn = amount
+         *          函数： a1 * m1 + a2 * m2 + ...... + an * mn = amount
+         *          给定 m1、m2、....、mn 和 amount
          *          求 a1 + a2 + .... + an 的最小值
-         *
          * 2、优先使用大额度的钞票，output才会是最小
          * 3、如果优先使用大额钞票后，剩下的无法凑成amount的问题，则 大额钞票数 -1 继续运算。
          * 4、如果钞票面额相差过于接近，比如 coins: [15,14,1]  amount=28 ，
